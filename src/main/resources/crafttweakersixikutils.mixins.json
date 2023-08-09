@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sixik.crafttweakersixikutils.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "crafttweakersixikutils.refmap.json",
+  "mixins": [
+    "ChestBlockEntityMixin",
+    "ChestLootGenMixin",
+    "ChunkGeneratorMixin",
+    "ChunkMapMixin",
+    "EnchantMixin",
+    "EntityLivingMixin",
+    "MixinEntityPlayer",
+    "PotionItemMixin",
+    "RaidMixin",
+    "ServerPlayerMixin",
+    "VillagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
